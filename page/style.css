@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: default;
+    outline: 0;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+}
+
+a {
+    cursor: pointer!important;
+}
+
+
+/*                   Font                 */
+
+@font-face {
+    font-family: 'Bahamas Light';
+    src: url(BahamasL.ttf) format('truetype');
+    font-style: normal;
+}
+
+
+/******************************************/
+
+.row {
+    margin-left: 0!important;
+    margin-right: 0!important;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.f_left {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.def {
+    cursor: default;
+}
+
+.conteiner {
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+/*                   Icon                 */
+
+.icon32 {
+    width: 32px;
+    height: auto;
+}
+
+
+/******************************************/
+
+.container .social_accounts a.vk {
+    background: url(https://habracdn.net/habr/images/1475853714/footer.share.png) no-repeat -53px bottom;
+}
+
+.container .social_accounts a.fb {
+    background: url(https://habracdn.net/habr/images/1475853714/footer.share.png) no-repeat -27px bottom;
+}
+
+.container .social_accounts a {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+footer {
+    padding: 1%;
+    border-top: 2px solid silver;
+}
+
+footer .page-wrap {
+    height: 10px;
+}
+
+
+/********    Btn up     ********/
+
+.btn_up {
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    background: rgb(33, 58, 102);
+    z-index: 100;
+    display: none;
+}
+
+.btn_up:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid rgb(251, 165, 52);
+    border-left: 2px solid rgb(251, 165, 52);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.btn_up:hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: rgb(251, 165, 52);
+}
+
+.btn_up:after:hover {
+    border-top: 2px solid rgb(33, 58, 102);
+    border-left: 2px solid rgb(33, 58, 102);
+}
+
+
+/********** toollbar ************/
+
+.cat {
+    background-color: #f2f2f2;
+    border-bottom: 3px solid #e6e6e6;
+    border-top: 5px solid rgb(33, 58, 102);
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.cat-math {
+    margin-top: 0px;
+}
+
+.cat .title {
+    padding: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+
+/*****************************/

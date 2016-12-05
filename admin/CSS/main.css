@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+textarea {
+    border-radius: 3px;
+    border-color: #88aab5;
+}
+
+form .forma {
+    width: 600px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+form .forma>.row {
+    margin-top: 20px;
+}
+
+form .forma label {
+    font-size: 20px;
+}
+
+form .forma input[type="text"], form .forma textarea, form .forma select {
+    padding: 10px;
+    font-size: 20px;
+}
+
+form .forma .add {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+form .forma .result {
+    display: none;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding: 15px;
+    background: #efefef;
+}
+
+
+/*             Toolbar              */
+
+.toolbar {
+    padding: 5px;
+}
+
+.toolbar ul {
+    list-style: none;
+    padding: 15px;
+}
+
+#toolbarLeft ul li a {
+    padding: 10px;
+    color: #000;
+    /*background: rgb(97, 170, 255);*/
+    display: block;
+    margin-bottom: 5px;
+    outline: none;
+    text-decoration: none;
+    font-size: 22px;
+    border: solid 1px #bbbbbb;
+}
+
+#toolbarLeft ul li a:hover {
+    padding: 10px;
+    color: #fff;
+    background: rgb(0, 2, 164);
+}
+
+#toolbarRight ul li a {
+    padding: 10px;
+    color: #000;
+    /*background: rgb(97, 170, 255);*/
+    display: block;
+    margin-bottom: 5px;
+    outline: none;
+    text-decoration: none;
+    font-size: 22px;
+    border: solid 1px #bbbbbb;
+}
+
+#toolbarRight ul li a:hover {
+    padding: 10px;
+    color: #fff;
+    background: rgb(0, 2, 164);
+}

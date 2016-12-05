@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(33, 58, 102);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(252, 165, 52);
+}
+
+input {
+    width: 700px;
+}
+
+.left_information {
+    margin-top: 100px;
+    height: 140px;
+    border: 4px solid;
+    border-color: black;
+}
+
+.mar-top-20 {
+    margin-top: 20px;
+}
+
+.right_2 {
+    margin-top: 20px;
+}
+
+.right_3 {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.right_middle {
+    border-bottom: 1px solid #e1e1e1;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.right_middle_1 {
+    margin-top: 20px;
+}
+
+.right_middle_2 {
+    margin-top: 20px;
+}
+
+.right_middle_3 {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.right_low {
+    margin-top: 30px;
+    border-bottom: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+.right_low_1 {
+    margin-top: 20px;
+}
+
+.right_low_2 {
+    margin-top: 20px;
+}
+
+.right_low_3 {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left_main {
+    margin-top: 50px;
+}
+
+.left_1 {
+    margin-top: 20px;
+}
+
+.left_2 {
+    margin-top: 20px;
+}
+
+.left_3 {
+    margin-top: 20px;
+}
+
+.left_4 {
+    margin-top: 20px;
+}
+
+.left_low {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.left_low h2 {
+    margin-top: 20px;
+}
+
+.page-wrap: {
+    min-height: 100%;
+    margin-bottom: -10px;
+}
+
+.titleFromula {
+    text-align: left;
+    font-weight: 300;
+    background: #f2f2f2;
+    margin: 0 -15px!important;
+    padding: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 5px solid rgb(33, 58, 102);
+}
+
+.formula-row {
+    padding: 30px 15px;
+}
+
+.container_formula {
+    margin: 0 auto;
+    width: auto;
+}
+
+.mainValue {
+    font-size: 42px;
+}
+
+.is {
+    padding: 0 15px;
+    font-size: 36px;
+}
+
+.formula {
+    font-size: 42px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.numerator {
+    border-bottom: solid 1px #000;
+}
+
+
+/* description variable */
+
+.desVar {
+    padding-bottom: 35px;
+}
+
+.Example-row {
+    padding: 15px 5px 15px 25px;
+}
+
+.error {
+    padding: 35px;
+    margin: 25px 0;
+    text-align: center;
+    background: rgba(238, 131, 131, 0.47);
+    border: solid 2px red;
+    color: red;
+    font-size: 26px;
+}

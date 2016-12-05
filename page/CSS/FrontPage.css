@@ -1,0 +1,161 @@
+
+#FrontPage {
+    background-image: url("../images/wdd2014.jpg");
+    background-size: cover;
+}
+
+#FrontPage .sos {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#FrontPage  img:hover {
+    cursor: pointer;
+}
+
+#FrontPage .height_inherit {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#FrontPage .height_inherit h3 {
+    color: white;
+}
+
+#FrontPage .height_inherit h3:hover {
+    cursor: pointer;
+    text-decoration: none!important;
+}
+
+#FrontPage .search-logIn {
+    text-align: center;
+}
+
+#FrontPage .text_main {
+    margin-top: 140px;
+}
+
+#FrontPage .text_main h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+}
+
+#FrontPage .text_children {
+    margin-top: 20px;
+}
+
+#FrontPage .text_children h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Open Sans";
+}
+
+#FrontPage .btn_first {
+    display: inline-block;
+    line-height: normal;
+    padding: 17px 20px 16px 20px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#FrontPage .btn_first.yellow {
+    background: #efc337;
+    color: #fff;
+}
+
+#FrontPage .btn_first.border {
+    border: 2px solid #aaa;
+    padding: 15px 20px 14px 20px;
+}
+
+#FrontPage .btn_first:hover {
+    cursor: pointer;
+}
+
+
+#FrontPage .btn_first:hover span {
+    cursor: pointer;
+}
+
+/*#FrontPage .btn_first.yellow:before {
+    background: #383434;
+}*/
+
+#FrontPage .btn_first:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+    display: block;
+    padding: 0;
+    transition: all .25s ease-out;
+    transform: scale(1, 0);
+}
+
+
+#FrontPage .btn_two {
+    display: inline-block;
+    line-height: normal;
+    padding: 17px 20px 16px 20px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#FrontPage .btn_two.white {
+    border-color: #fff;
+    color: #6c6c6c;
+    background: #e6ea1c;
+}
+
+
+/*#FrontPage .btn_two.white:before {
+    background: rgba(255,255,255,0.3);
+}*/
+
+#FrontPage .btn_two.white:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+    display: block;
+    padding: 0;
+    transition: all .25s ease-out;
+    transform: scale(1, 0);
+}
+
+#FrontPage .btn_two.border {
+    border: 2px solid #aaa;
+    padding: 15px 20px 14px 20px;
+}
+
+#FrontPage .btn_two:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#FrontPage .btn_two:hover span {
+    cursor: pointer;
+}

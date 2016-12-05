@@ -1,0 +1,25 @@
+.container_formula {
+    margin: 0 auto;
+    width: auto;
+}
+
+.mainValue {
+    font-size: 42px;
+}
+
+.is {
+    padding: 0 15px;
+    font-size: 36px;
+}
+
+.formula {
+    font-size: 42px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.numerator {
+    border-bottom: solid 1px #000;
+}
