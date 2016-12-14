@@ -3,7 +3,7 @@
     <div id="FrontPage">
         <div class="row header">
             <div class="col-lg-2 col-lg-offset-1 col-md-2  sos">
-                <a href="#"><img src="page/images/sos.png" height=150px; width=200px;  ></a>
+                <!-- <a href="#"><img src="page/images/sos.png" height=150px; width=200px;  ></a> -->
             </div>
                 <div class="col-lg-8 col-md-9 col-lg-offset-1 height_inherit">
                       <div class="col-lg-2 col-md-2 navbar_middle <?=$nav_main?>">
